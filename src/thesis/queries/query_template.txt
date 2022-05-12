@@ -1,0 +1,8 @@
+PREFIX thi: <http://thesis.de/internal/>
+PREFIX the: <http://thesis.de/entity/>
+PREFIX thr: <http://thesis.de/relation/>
+SELECT {projection}
+{from_clause}
+WHERE {{
+    {where_block}
+}}

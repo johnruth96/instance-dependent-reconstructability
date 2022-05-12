@@ -1,0 +1,13 @@
+.idea/
+venv/
+
+*.png
+*.ttl
+*.pyc
+*.csv
+*.*.rq
+*.log
+
+*.pclprof
+
+*.ipynb

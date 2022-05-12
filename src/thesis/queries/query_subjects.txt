@@ -1,0 +1,6 @@
+SELECT ?subject ?predicate
+{from_clause}
+WHERE {{
+    ?subject ?predicate ?o .
+    FILTER (STRSTARTS(STR(?predicate), 'http://thesis.de/relation/')) .
+}}

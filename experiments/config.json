@@ -1,0 +1,28 @@
+{
+  "queries": [
+    "Q1",
+    "Q2",
+    "Q3",
+    "Q4"
+  ],
+  "rounds": 7,
+  "reification_techniques": [
+    "nary",
+    "singleton",
+    "standard",
+    "lossy"
+  ],
+  "reification_degrees": [
+    "none",
+    "minimal",
+    "complete"
+  ],
+  "skip_union": false,
+  "metrics": [
+    "precision",
+    "time"
+  ],
+  "port": 9999,
+  "timeout": 150,
+  "use_optimizations": false
+}

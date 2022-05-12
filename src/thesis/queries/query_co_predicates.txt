@@ -1,0 +1,6 @@
+PREFIX thi: <http://thesis.de/internal/>
+SELECT ?predicate ?relation
+{from_clause}
+WHERE {{
+    ?predicate thi:belongsTo ?relation .
+}}
